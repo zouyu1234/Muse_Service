@@ -1,0 +1,95 @@
+2023-03-16 21:14:15.547  INFO 11648 --- [main] com.zy.SsoApplication                    : Starting SsoApplication on 架构部-邹雨 with PID 11648 (D:\dev\study\study_sso\target\classes started by TY in D:\dev\study)
+2023-03-16 21:14:15.561  INFO 11648 --- [main] com.zy.SsoApplication                    : No active profile set, falling back to default profiles: default
+2023-03-16 21:14:19.544  INFO 11648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-16 21:14:19.557  INFO 11648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 21:14:19.651  INFO 11648 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2023-03-16 21:14:20.660  INFO 11648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:14:20.668  INFO 11648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$3a8a5b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:14:20.698  INFO 11648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:14:20.757  INFO 11648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:14:20.765  INFO 11648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zy.config.RedisConfig$$EnhancerBySpringCGLIB$$7e93b55] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:14:21.384  INFO 11648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-16 21:14:21.432  INFO 11648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-16 21:14:21.433  INFO 11648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-16 21:14:21.636  INFO 11648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-16 21:14:21.637  INFO 11648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5936 ms
+2023-03-16 21:14:21.837  INFO 11648 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-16 21:14:22.240  INFO 11648 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-16 21:14:23.959  INFO 11648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 21:14:25.506  INFO 11648 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1d6a9eae-bdde-49ed-8d44-0b7c2dcfc19b
+
+2023-03-16 21:14:25.627  INFO 11648 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6adc5b9c, org.springframework.security.web.context.SecurityContextPersistenceFilter@77d381e6, org.springframework.security.web.header.HeaderWriterFilter@3a36cd5, org.springframework.security.web.csrf.CsrfFilter@38291795, org.springframework.security.web.authentication.logout.LogoutFilter@423a0e1d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3a479fda, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4c51077d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@19c1820d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1095d23a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f6f3cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4de79b7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40709f9, org.springframework.security.web.session.SessionManagementFilter@47acd13b, org.springframework.security.web.access.ExceptionTranslationFilter@1450131a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14447be]
+2023-03-16 21:14:25.791  INFO 11648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-16 21:14:25.794  INFO 11648 --- [main] com.zy.SsoApplication                    : Started SsoApplication in 11.319 seconds (JVM running for 15.682)
+2023-03-16 21:19:35.370  INFO 11648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-16 21:19:35.371  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-16 21:19:35.404  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 32 ms
+2023-03-16 21:20:21.743 ERROR 11648 --- [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+
+org.springframework.security.web.firewall.RequestRejectedException: The request was rejected because the URL contained a potentially malicious String "//"
+	at org.springframework.security.web.firewall.StrictHttpFirewall.rejectedBlacklistedUrls(StrictHttpFirewall.java:369) ~[spring-security-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.firewall.StrictHttpFirewall.getFirewalledRequest(StrictHttpFirewall.java:336) ~[spring-security-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:194) ~[spring-security-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.7.RELEASE.jar:5.2.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_25]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_25]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.36.jar:9.0.36]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_25]
+
+2023-03-16 21:23:08.911  INFO 11648 --- [http-nio-8080-exec-3] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2023-03-16 21:23:08.913  INFO 11648 --- [http-nio-8080-exec-3] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2023-03-16 21:24:16.000  INFO 11124 --- [main] com.zy.SsoApplication                    : Starting SsoApplication on 架构部-邹雨 with PID 11124 (D:\dev\study\study_sso\target\classes started by TY in D:\dev\study)
+2023-03-16 21:24:16.012  INFO 11124 --- [main] com.zy.SsoApplication                    : No active profile set, falling back to default profiles: default
+2023-03-16 21:24:17.026  INFO 11124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-03-16 21:24:17.029  INFO 11124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-03-16 21:24:17.057  INFO 11124 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2023-03-16 21:24:17.410  INFO 11124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:24:17.414  INFO 11124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$a8186de5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:24:17.425  INFO 11124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:24:17.430  INFO 11124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:24:17.437  INFO 11124 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'redisConfig' of type [com.zy.config.RedisConfig$$EnhancerBySpringCGLIB$$75774e0c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-03-16 21:24:17.769  INFO 11124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-16 21:24:17.781  INFO 11124 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-16 21:24:17.781  INFO 11124 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2023-03-16 21:24:17.871  INFO 11124 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-16 21:24:17.871  INFO 11124 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2023-03-16 21:24:17.966  INFO 11124 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-03-16 21:24:18.095  INFO 11124 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-03-16 21:24:18.814  INFO 11124 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-03-16 21:24:19.457  INFO 11124 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: daf4016c-912d-45f3-9782-a7b17dacc733
+
+2023-03-16 21:24:19.544  INFO 11124 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6393bf8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@733c464f, org.springframework.security.web.header.HeaderWriterFilter@77d381e6, org.springframework.security.web.csrf.CsrfFilter@461c3709, org.springframework.security.web.authentication.logout.LogoutFilter@79476a4e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d7a64ca, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2291d9a0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@76d7881e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@83bb0f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73fbdf68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2839e3c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4aa31ffc, org.springframework.security.web.session.SessionManagementFilter@3f6f3cc, org.springframework.security.web.access.ExceptionTranslationFilter@47acd13b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73c31181]
+2023-03-16 21:24:19.670  INFO 11124 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-16 21:24:19.674  INFO 11124 --- [main] com.zy.SsoApplication                    : Started SsoApplication in 4.743 seconds (JVM running for 6.015)
